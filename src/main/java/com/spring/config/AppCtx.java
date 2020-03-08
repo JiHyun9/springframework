@@ -43,8 +43,8 @@ public class AppCtx {
 	@Bean //2) Setter 메소드로 DI
 	public MemberInfoPrinter infoPrinter() {
 		MemberInfoPrinter infoPrinter = new MemberInfoPrinter();
-		infoPrinter.setMemberDao(memberDao());
-		infoPrinter.setPrinter(memberPrinter());
+//		infoPrinter.setMemberDao(memberDao());
+//		infoPrinter.setPrinter(memberPrinter());
 		return infoPrinter;
 	}
 	@Bean 
